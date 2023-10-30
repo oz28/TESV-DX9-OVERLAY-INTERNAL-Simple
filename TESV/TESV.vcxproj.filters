@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw\Draw.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Hack.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\Hooks.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{b6ac7d88-5c81-4b44-adf9-41bce6d76508}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Draw\hDraw.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\hack.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\Hooks.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets\Offsets.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs\Structs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw\hMain.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
